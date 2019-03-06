@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".connectity.ConnectityActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_message_connectivity"
+        android:textSize="20sp"
+        android:text="Entrer votre message..."/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_number_connectivity"
+        android:textSize="20sp"
+        android:inputType="phone"
+        android:text="+225 79081050"/>
+
+    <Button
+        android:id="@+id/btn_send_connectivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connectivity"
+        android:textStyle="bold"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btn_wifi_connectivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wifi_connectivity"
+        android:textStyle="bold"
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

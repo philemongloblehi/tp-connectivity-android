@@ -1,0 +1,4 @@
+#Wed Mar 06 17:44:52 GMT 2019
+base.0=/Users/macbook/Desktop/GLOBLEHI/S2RecyclerView2/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex
